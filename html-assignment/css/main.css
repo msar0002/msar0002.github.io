@@ -1,0 +1,43 @@
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header,footer{
+    background-color: #0a416e
+}
+.site-title
+{
+    color:#e2eaf2
+}
+#my-image
+{
+    box-shadow:0px 2px 2px 1px black;
+}
+ul{
+   list-style: square; 
+}
+ul>li:nth-child(odd)
+{
+    background-color: #64798a;
+}
+.Navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #022D50;
+}
+.Navlist>li {
+    float: left;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: #1D2329;
+}
