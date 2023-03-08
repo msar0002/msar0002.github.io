@@ -55,7 +55,7 @@ nav{
     color: black;
     text-align: center;
     text-decoration: none;
-    padding: 16px 160px;
+    padding: 16px 140px;
 
     }
 .msec{
@@ -69,6 +69,7 @@ nav{
     .msec h1{
         font-size: 6ch;
     }
+    /*i make some style in the pargraph*/
 .prag
 {
 font-size: 3ch;
@@ -77,7 +78,7 @@ padding:0px;
 overflow: hidden;
 float: left;
 }
-
+/*i change the img size to be fix behind the pragrph*/
 .divimg img{
     float: left;
     margin-top: 20px;
@@ -90,6 +91,7 @@ float: left;
 .divp{
 float: none;
 }
+/* here for the list in secound component in the page to line 99*/
 .sectwo{
     margin:20px;
     font-size: 3ch;
@@ -97,6 +99,7 @@ float: none;
 .sectwo ul{
     padding-left: 22px;
 }
+
 form{
     font-size: 3ch;
 
