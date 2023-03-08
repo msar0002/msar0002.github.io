@@ -55,8 +55,7 @@ nav{
     color: black;
     text-align: center;
     text-decoration: none;
-    position: relative;
-    padding: 16px 120px;
+    padding: 16px 140px;
 
     }
 .msec{
@@ -92,7 +91,7 @@ float: left;
 .divp{
 float: none;
 }
-/* here for the list in secound component in the page to line 99*/
+/* here for the list in secound component in the page to line*/
 .sectwo{
     margin:20px;
     font-size: 3ch;
