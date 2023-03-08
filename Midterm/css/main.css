@@ -55,7 +55,8 @@ nav{
     color: black;
     text-align: center;
     text-decoration: none;
-    padding:  140px;
+    position: relative;
+    padding: 16px 120px;
 
     }
 .msec{
@@ -99,7 +100,6 @@ float: none;
 .sectwo ul{
     padding-left: 22px;
 }
-
 form{
     font-size: 3ch;
 
