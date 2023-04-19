@@ -522,7 +522,7 @@ width: 100%;
 
 footer p {
 padding-left: 0;
-margin-left: 0;
+margin-left: 1;
 max-width: 100%;
 font-size: small;
 color: #ffe6ac;
