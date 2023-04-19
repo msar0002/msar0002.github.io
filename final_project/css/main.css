@@ -1,8 +1,11 @@
-@media screen and (max-width: 760PX){
-  body{
+
+body{
  /*I add the google font here */
     font-family: 'Cabin', sans-serif;
   }
+
+@media screen and (max-width: 760PX){
+  
  .Wrapper {
   background-color: rgb(46, 43, 43);
   width: 100%;
@@ -54,8 +57,8 @@
       top: 10px;
       bottom:10px;
       margin-top: 10px;
-      background-color: rgba(0, 0, 0, 0.5);
-
+      background-color: rgba(123, 113, 113, 0.5);
+      
       width: 100%;
       padding: 10px;
   }
@@ -228,7 +231,7 @@ margin-left: 0;
 /*i make the navigtion bar vertical */
 nav {
   background-color: #333;
-  color: #fff;
+  color: #ffffff;
   padding: 10px;
 }
 
@@ -254,7 +257,7 @@ nav li a {
 header{
   margin-top: 0px;
   padding: 90px;
-  background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(123, 113, 113, 0.5);
   background-image: url("../images/main-banner.jpg");
   background-size: cover;
   background-position: center;
@@ -263,7 +266,7 @@ header{
 /*this div for the header */
 .boxo{
 
-  background-color:#1d1c17;
+  background-color: rgba(123, 113, 113, 0.5);
 
   width: 100%;
 
@@ -285,6 +288,7 @@ header{
   width: 30%;
   height: 20%;
   border: none;
+  margin: 10px;
 }
 .about_us {
   margin: 10px;
@@ -304,7 +308,7 @@ header{
   flex: 1;
   padding: 0 30px;
 }
-
+/* I use here grid to organazie the servies */
 .our_services
 {
   display: grid;
@@ -312,6 +316,15 @@ header{
   grid-gap: 20px;
   margin: 10px;
 
+}
+.our_services .btn
+{
+  background-color: #c78c06;
+  width: 30%;
+  height: 10%;
+  border: none;
+  margin: 20px;
+  margin-bottom: 80px;
 }
 .print{
 grid-area: 3 / 5 / 4 / 7;
@@ -410,7 +423,22 @@ font-size: 0.8rem;
 padding: 5px;
 margin: 0;
 }
+.our_vision{
+  padding: 5px;
+  background-image: url(../images/vision.jpg);
+  background-size: cover;
+  background-position: center;
 
+}
+.our_vision h1,p 
+{
+  color: white;
+}
+.our_vision .btn
+{
+  width: 10%;
+  margin: 4px;
+}
 .our_team {
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -467,22 +495,23 @@ height: 50%;
 }
 /*i add some css for the table */
 table {
-justify-content: center;
-align-items: center;
-border-collapse: collapse;
-margin: 0 auto;
+
+text-align: center;
+position: relative;
+left: 120%;
 width: 100%;
+
 }
 
 th, td {
 border: 1px solid black;
-padding: 8px;
+padding: 10px;
+margin: 0px;
 text-align: left;
 }
 
 th {
 background-color: #ffe6ac;
-font-weight: bold;
 }
 footer {
 background-color: #232323;
