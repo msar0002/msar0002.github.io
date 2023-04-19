@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/428c02a636.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet"  href="css/main.css">  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +15,19 @@
 <!--First bulid the Top nav and i will make the list with desplay flex-->
 <div class="Wrapper">
 <nav class="topnav">
- <img src="images/logo.png" alt="Logo Image for three satr media">
+ 
   <ul>
-    <li><a href="#index.html">Home</a></li>
-    <li><a href="#">about us</a></li>
-    <li><a href="#">services</a></li>
-    <li><a href="#">team</a></li>
-    <li><a href="#">contact</a></li>
+    <li class="iteam"><img src="images/logo.png" alt="Logo Image for three satr media"></li>
+    <li class="iteam"><a href="#index.html">Home</a></li>
+    <li class="iteam"><a href="#">about us</a></li>
+    <li class="iteam"><a href="#">services</a></li>
+    <li class="iteam"><a href="#">team</a></li>
+    <li class="iteam"><a href="#">contact</a></li>
+    <li  class="iteam"><form>
+        <input type="text" placeholder="search"> <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+      </form></li>
   </ul>
-  <form>
-    <input type="text" placeholder="search"> <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-  </form>
+  
 </nav>
 </div>
 <!--I would bulid here the header section-->
@@ -31,13 +36,17 @@
 
 <!--i make div here top play with backgorund and the opisity in css -->
 <header>
-        <h1>Welcome to Three Star media</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis perferendis illum eligendi ut iure, consectetur dolorum ipsa eos atque excepturi labore doloremque saepe odio alias exercitationem necessitatibus cupiditate nihil recusandae.</p>
+    <div class="boxo">
+        <div class="boxin">      
+         <h1>Welcome to Three Star media</h1>
+        <p>Lorferendis illum eligendi ut iure, consectetur dolorum ipsa eos atque excepturi labore doloremque saepe odio alias exercitationem necessitatibus cupiditate nihil recusandae.</p>
         <!--I will make in css border for this link-->
         <div class="btn" id="btn1">
             <a href="#"> contact with us <i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-    
+        
+    </div>
+    </div>
+
 </header>
 
 <section class="about_us">
@@ -48,11 +57,12 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores assumenda, libero suscipit quidem magni nemo saepe illum rerum velit molestiae minima, repellat ipsa nulla? Culpa praesentium ad temporibus? Aspernatur, placeat!</p>
     </div>
 </section>
-<!--I will make it grid or div i dont know yet ask the teacher what the better -->
+<!--I will make it grid or div i dont know yet ask the teacher what the better -->   
+<h1>our services</h1>
 <section class="our_services">
-    <h1>our services</h1>
+ 
     <div class="dig_tran">
-        <img src="images/digital.jpg" alt="picturefor devies">
+        <img class="pic"  src="images/digital.jpg" alt="picturefor devies">
         <h2>Digtal Transformation</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, natus officiis! Nostrum modi perspiciatis ratione, maxime in doloremque excepturi est similique sit laudantium aliquam dolorem dignissimos, sequi nemo, numquam ex.</p>
         <div class="btn">
@@ -60,7 +70,7 @@
         </div>
     </div>
     <div class="marketing">
-        <img src="images/marketing.jpg" alt="laptob with phone in the office ">
+        <img class="pic" src="images/marketing.jpg" alt="laptob with phone in the office ">
         <h2>Marketing</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, natus officiis! Nostrum modi perspiciatis ratione, maxime in doloremque excepturi est similique sit laudantium aliquam dolorem dignissimos, sequi nemo, numquam ex.</p>
         <div class="btn">
@@ -68,7 +78,7 @@
         </div>
     </div>
     <div class="video_pro">
-        <img src="images/video.jpg" alt="Someone open the youtupe ">
+        <img class="pic" src="images/video.jpg" alt="Someone open the youtupe ">
         <h2>Video Production</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, natus officiis! Nostrum modi perspiciatis ratione, maxime in doloremque excepturi est similique sit laudantium aliquam dolorem dignissimos, sequi nemo, numquam ex.</p>
       <div class="btn">
@@ -77,7 +87,7 @@
       
     </div>
     <div class="web_dev">
-        <img src="images/web.jpg" alt=" phone in the office ">
+        <img class="pic" src="images/web.jpg" alt=" phone in the office ">
         <h2>Web Development</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, natus officiis! Nostrum modi perspiciatis ratione, maxime in doloremque excepturi est similique sit laudantium aliquam dolorem dignissimos, sequi nemo, numquam ex.</p>
        
@@ -85,9 +95,9 @@
             <a href="#">Web plans <i class="fa-solid fa-arrow-right"></i> </a>
         </div>
     </div>
-    <div class="dig_tran">
-        <img src="images/print.jpg" alt="laptob with phone in the office ">
-        <h2>Prin  t</h2>
+    <div class="print">
+        <img class="pic" src="images/print.jpg" alt="laptob with phone in the office ">
+        <h2>Print</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, natus officiis! Nostrum modi perspiciatis ratione, maxime in doloremque excepturi est similique sit laudantium aliquam dolorem dignissimos, sequi nemo, numquam ex.</p>
        
         <div class="btn">
@@ -104,21 +114,30 @@
     <a href="#">Learn More</a>
 </div>
 </section>
-<section class="our_team">
-    <h1>our team</h1>
+  <h1>our team</h1>
+  <section class="our_team">
     <div class="our_team1">
-    <img src="images/john.jpg" alt="picture for john">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quidem illo magni rem repudiandae sunt beatae explicabo blanditiis, suscipit quae cumque enim cum hic similique laudantium aperiam. Saepe, labore minima?</p>
-</div>
-<div class="ourteam2">
-    <img src="images/bob.jpg" alt="picture for bob">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quidem illo magni rem repudiandae sunt beatae explicabo blanditiis, suscipit quae cumque enim cum hic similique laudantium aperiam. Saepe, labore minima?</p>
-</div>
-</section>
+      <img src="images/john.jpg" alt="picture for john">
+      <div class="team1">
+        <h1>John Doe</h1>
+        <h4>CEO and Co-owner</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quidem illo magni rem repudiandae sunt beatae explicabo blanditiis, suscipit quae cumque enim cum hic similique laudantium aperiam. Saepe, labore minima?</p>
+      </div>
+    </div>
+    <div class="our_team2">
+      <div class="team2">
+        <h1>Bob Smith</h1>
+        <h4>COO and Co-founder</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quidem illo magni rem repudiandae sunt beatae explicabo blanditiis, suscipit quae cumque enim cum hic similique laudantium aperiam. Saepe, labore minima?</p>
+      </div>
+      <img src="images/bob.jpg" alt="picture for bob">
+    </div>
+  </section>
+ 
 <section class="contact_us">
-    <h1>contact us</h1>
-    <div class="for">
     
+    <div class="for">
+        <h1>contact us</h1>
             <form action="about.html" method="get" >
                 <div>
                     <label for="name">Full Name</label><br>
@@ -136,7 +155,7 @@
             </form>
         
     </div>
-    <div>
+    <div class="map">
         <h1>location</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2803.9503404460643!2d-75.7587885!3d45.3498147!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680552244437!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
@@ -164,6 +183,7 @@
     </div>
 </section>
 <footer>
+    
     <p>&copf; copyright three star media 2020 <br>All image are taken from <u> unsplash </u></p>
 </footer>
 </body>
