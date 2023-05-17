@@ -14,12 +14,15 @@ h1,h4,p {
 {
     background-color: saddlebrown;
 }
-
+.body_contaner
+{
+    width: auto;
+}
 .body_contaner img
 {
     float: left;
     margin-top: 10px;
-    width:30%;
+    width:150px;
     height:0%;
     padding: 10px;
 } 
