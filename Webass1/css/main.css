@@ -1,0 +1,41 @@
+body
+{
+    background-color: rgb(107, 69, 69);
+}
+h1,h4,p {
+    color: white;
+}
+.maincon
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.hediv
+{
+    background-color: saddlebrown;
+}
+
+.body_contaner img
+{
+    float: left;
+    margin-top: 10px;
+    width:30%;
+    height:0%;
+    padding: 10px;
+} 
+.body_contaner p 
+{
+    font-size: 3ch;
+}
+.programs
+{
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: burlywood;
+    margin-top: 0%;
+    height: 50%;
+}
+.programs ul
+{
+    list-style: none;
+}
