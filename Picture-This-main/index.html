@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Picture This!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="title">
+      <h1>Picture This!</h1>
+      <h4>My Really Cool Blog Post</h4>
+   </div>
+   <img src="images/museum.jpg" alt="placeholder">
+   <div class="main_sq">
+   
+          <!-- square image >= 960  480 960 1440 -->
+          <source srcset="images/museum-square-480.jpg,
+          images/museum-square-960.jpg, 2x,
+          images/museum-square-1440.jpg, 3x"
+          media="(min-width: 960px)" />
+           <!-- square image >= 1280   640 1280  1920 --> 
+    <source srcset="images/museum-square-640.jpg, 
+     images/museum-square-1280.jpg, 2x, 
+     images/museum-square-1920.jpg, 3x" 
+     media="(min-width: 1280px)" />
+    </div>
+
+    <div class="main_land">
+     <!--landscape image <=480      480 960 1440-->
+      <source srcset="images/museum-landscape-480.jpg,
+            images/museum-landscape-960.jpg 2x,
+            images/museum-landscape-1440.jpg 3x"
+            media="(max-width: 480px)" />
+      <!--landscape image <=960    960 1920 2880-->
+    <source srcset="images/museum-landscape-960.jpg,
+                    images/museum-landscape-1920.jpg 2x,
+                    images/museum-landscape-2880.jpg 3x"
+            media="(max-width: 960px)" />
+          </div>
+
+  </header>
+
+</body>
+
+</html>
