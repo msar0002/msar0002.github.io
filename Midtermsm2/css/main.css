@@ -48,7 +48,7 @@ height: 30%;
 /*i put the iamge as background image for the class and i make cover */
 .f_p
 {
-    background-image: url(/images//images/body_image.jpg);
+    background-image: url(../images/images/body_image.jpg);
     background-size: cover;
     background-position: center;
     width: auto;
