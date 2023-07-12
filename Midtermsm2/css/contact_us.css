@@ -67,7 +67,7 @@ align-items: center;
 .for
 {
     padding: 4.5%;
-}
+}/* i make it flex to have two section and make gap between them */
 .contact_form
 {
     display: flex;
@@ -105,6 +105,7 @@ align-items: center;
 {
     padding-left: 1.5%;
 }
+/* this input just for text */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
