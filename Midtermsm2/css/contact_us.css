@@ -1,0 +1,120 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;  }
+body
+{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+/* HE I  AKE THE LOGO DISLPLAY FLEX TO MAKE IT IN THE CENTER OF THE PAGE */
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.logo img
+{
+
+width: 30%;
+height: 30%;
+}
+/* I USE THE SAME THING IN THE NAV MENU */
+.hea ul
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.skip-link {
+    position: absolute;
+ 
+    background-color: #ffffff;
+    color: #141414;
+    padding: 8px;
+}
+
+#back-to-top {
+
+    font-size: 18px;
+    background-color: #e6e6e6;
+    color: #000000;
+    cursor: pointer;
+}
+.hea li 
+{
+    border-right: 1px solid gray;
+    margin-right: 10px; 
+    padding-right: 10%;
+}
+.hea li:last-child
+{
+    border-right:none ;
+}
+.hea a 
+{
+    text-decoration: none;
+    color: rgb(91, 85, 85);
+}
+.h5
+{
+justify-content: center;
+align-items: center;
+}
+.for
+{
+    padding: 4.5%;
+}
+.contact_form
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(234, 192, 221) ;
+
+}
+.send
+{
+    padding: 1.5%;
+    background-color: rgb(219, 193, 193);
+    width: 25%;
+    height: 10%;
+    opacity: 0.8;
+    border-radius: 10%;
+}
+.send a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    justify-content: center;
+    color: rgb(91, 85, 85);
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn1:hover {opacity: 85%}
+.form{
+    padding: 1.5%;
+}
+.form h3
+{
+    padding-left: 1.5%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,135 @@
+   *{
+      font-family: 'Josefin Sans', sans-serif;  } 
+   body
+   {
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+   }
+   .logo
+   {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: auto;
+   }
+   .logo img
+   {
+
+   width: 30%;
+   height: 30%;
+   }
+   .hea ul
+   {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      justify-content:space-around;
+      flex-wrap: wrap;
+   }
+   .hea li 
+   {
+      border-right: 1px solid gray;
+      margin-right: 10px; 
+      padding-right: 10%;
+   }
+   .hea li:last-child
+   {
+      border-right:none ;
+   }
+
+      h1 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: gray;
+         /* Set the height of the <h1> element to full viewport height */
+         margin: 1.3%; /* Remove any default margin */
+      }
+      .aboutus1
+      {
+      display: grid;
+      grid-template-areas: 'iteam1 iteam2'
+                        ' iteam3 iteam4';
+                     
+      gap:1.1% }
+      .man
+      {
+         grid-area: iteam1;
+         width: 100%;
+         height: 100%;
+      }
+      .manp
+      {
+         grid-area: iteam2;
+         background-color: rgb(255, 208, 247);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+      }
+      .girl
+      {
+         grid-area: iteam4;
+         width: 100%;
+         height: 100%;
+      }
+      .grilp
+      {
+         grid-area: iteam3;
+         background-color: rgb(179, 247, 238);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+      }
+      .grilp  h3 {
+         color: rgb(130, 138, 146);
+         padding: 2.2%;
+      }    
+      .grilp p    {
+         color: rgb(130, 138, 146);
+            padding: 2.2%;
+         }              
+      .manp  h3  {
+         color: rgb(130, 138, 146);
+      
+         }     
+      .manp p{
+         color: rgb(130, 138, 146);
+         padding: 2.2%;
+      }     
+      @media only screen and (max-width: 768px) {
+         h1 {
+           font-size: 24px;
+         }
+       
+         .aboutus1 {
+           display: block;
+         }
+       
+         .man,
+         .girl {
+           width: 100%;
+           height: auto;
+         }
+       
+         .manp
+         {
+            background-color: rgb(158, 249, 219);
+         }
+         .grilp {
+           background-color: rgb(231, 180, 193);
+           text-align: center;
+         }
+       
+         .grilp h3,
+         .grilp p,
+         .manp h3,
+         .manp p {
+           padding: 10px;
+         }
+       }
+       
