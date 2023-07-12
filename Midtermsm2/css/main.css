@@ -48,7 +48,7 @@ height: 30%;
 /*i put the iamge as background image for the class and i make cover */
 .f_p
 {
-    background-image: url(/images/images/body_image.jpg);
+    background-image: url(/images/images/cupcake.jpg);
     background-size: cover;
     background-position: center;
     width: auto;
@@ -174,12 +174,12 @@ height: 30%;
       font-size: 0.5em; /* Starting font size */
     }
     to {
-      font-size: 1em; /* Regular font size */
+      font-size: 1em; /*  font size */
     }
   }
   /*i add animation to change the text size here */
   .animated-text {
-    animation: textAnimation2 2s linear; /* Animation duration and timing */
+    animation: textAnimation2 2s linear; /* Animation  and timing */
   }
   @keyframes textAnimation2 {
     from {
@@ -191,7 +191,7 @@ height: 30%;
   }
   
   .animated-text2 {
-    animation: textAnimation 3s linear; /* Animation duration and timing */
+    animation: textAnimation 3s linear; /* Animation and timing */
   }
   .footer {
     text-align: center;
@@ -223,7 +223,7 @@ height: 30%;
         border-right: none;
         margin-right: 0;
         padding-right: 0;
-        margin-bottom: 10px; /* Add some space between menu items */
+        margin-bottom: 10px; 
       }
       .all_product .image-row {
         flex-direction: column;
@@ -234,7 +234,7 @@ height: 30%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 0px 0 0px; /* Adjust the margin values to remove the gap */
+        margin: 0 0px 0 0px; 
         text-align: center;
       }
         .last_part {
