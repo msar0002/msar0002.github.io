@@ -4,6 +4,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/** Header CSS **/
 .logo {
     max-width: 100px;
 }
@@ -21,6 +22,7 @@ body {
 .navbar.navbar-expand-lg {
     background-color: #353535;
 }
+/*here i add for the buuton some css prop*/
 .aboutMeBTN{
     position: absolute;
     left: 185px;
@@ -36,6 +38,7 @@ body {
     right: 25px;
     bottom: 25px
 }
+
 .submitbtn,
 .aboutMeBTN {
     border: 1px solid red;
@@ -52,7 +55,7 @@ body {
     transition: 0.7s;
 }
 .scaleImg:hover{
-scale: 0.9;
+    transform: scale(0.9);
 filter: grayscale(1);
 }
 .title-logo {
@@ -71,7 +74,7 @@ filter: grayscale(1);
 max-width: 30px;
 }
 
-
+/* Mobile Media Query */
 @media only screen and (max-width: 768px) {
     .aboutMeBTN {
         display: none;
@@ -90,7 +93,7 @@ max-width: 30px;
     }
 }
 
-
+/* Tablet Media Query */
 @media (min-width: 768px) and (max-width: 1200px) {
     .aboutMeBTN {
         display: none;
